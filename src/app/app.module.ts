@@ -9,7 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { NestedMatExpansionPanelComponent } from './nested-mat-expansion-panel/nested-mat-expansion-panel.component';
-import { MatExpansionPanelComponent } from './mat-expansion-panel/mat-expansion-panel.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -19,7 +18,6 @@ import { ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     NestedMatExpansionPanelComponent,
-    MatExpansionPanelComponent
   ],
   imports: [
     CommonModule,
