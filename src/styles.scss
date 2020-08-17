@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+
+@import "~ag-grid-community/src/styles/ag-grid.scss";
+@import "~ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin.scss";
+
+.ag-theme-alpine {
+    @include ag-theme-alpine();
+}
+
+// ag-grid-angular {
+//   height: calc(100vh - 70px) !important;
+// }
+
+ag-grid-angular {
+  width: 100%;
+  height: 20rem;
+}

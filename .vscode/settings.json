@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "eslint.packageManager": "yarn",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/dist": true
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "explorer.compactFolders": false,
+    "jshint.options": {"esversion": 6}
+}
