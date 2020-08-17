@@ -91,7 +91,7 @@ export class AppComponent {
     };
   }
 
-  public onRowClicked() {
+  public onRowClicked($event) {
     //
   }
 
